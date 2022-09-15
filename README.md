@@ -23,8 +23,11 @@
 
 * run `mvn package`to build jar executable.
 * run `java -jar target/Assessment-0.0.1-SNAPSHOT.jar`
+
 Alternatively,
+
 * run `mvn spring-boot:run`
+
 
 > By default it will run on 8080 port : http://localhost:8080.
 

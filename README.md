@@ -1,22 +1,23 @@
 
 ## Requirements
-* Java 8
+* Java 17
 * Install any Java IDE
 * Apache Maven
+* PostgreSQL
 
 ## Development Setup
 **1. Clone the repo**
 
 `git clone https://github.com/vallawxy/Assessment`
 
-**2. Create Postgres database**
+**2. Create PostgreSQL database**
 
 `create database ToppanAssessment`
 
 
-**3. Change Postgres username and password as per your installation**
+**3. Change PostgreSQL username and password as per your installation**
 * open `src/main/resources/application.properties`
-* change `spring.datasource.username` and `spring.datasource.password` as per your postgres installation
+* change `spring.datasource.username` and `spring.datasource.password` as per your postgreSQL installation
 
 **4. Build and run**
 
@@ -25,7 +26,6 @@
 Alternatively,
 * run `mvn spring-boot:run`
 
-By default the application it will run on 8080 port http://localhost:8080.
+> By default it will run on 8080 port : http://localhost:8080.
 
-
-
+> Postman : https://documenter.getpostman.com/view/18049837/2s7YfGDczC

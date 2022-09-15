@@ -5,9 +5,9 @@
 * Apache Maven
 
 ## Development Setup
-**1. Clone the application**
+**1. Clone the repo**
 
-`code`
+`git clone https://github.com/vallawxy/Assessment`
 
 **2. Create Postgres database**
 
